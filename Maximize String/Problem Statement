@@ -1,0 +1,15 @@
+You will be given a integer N. you will be given a binary string "S" of length N.
+Your task is to find the total number of binary strings of length N that can be selected such that 
+the decimal value of ( given binary string | selected binary string ) is equal to 
+power(2,N-1).
+
+Here ' | ' represents the bitwise OR operation.
+
+Input :
+The first line of your input will be a integer denoting the size of the binary string N.
+The second line of your input will be the binary string of length N.
+
+Output :
+Print the total number of binary strings of length N that can be selected such that 
+the decimal value of ( given binary string | selected binary string ) is equal to 
+power(2,N-1).
