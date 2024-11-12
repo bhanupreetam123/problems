@@ -1,0 +1,11 @@
+You will be given a number 'N' and a list of N distinct integers. 
+Your task is to print a sequence containing these N distinct integers such that the absolute difference between the 
+adjacent elements in the sequence is minimum out of all possible sequences. If there are multiple sequences that satisfy the given condition then
+print the lexigraphically largest sequence among them.
+
+Input :
+The first line of your input will be the number N.
+The second line of your input consists a list of N distinct integers.
+
+Output :
+print the lexigraphically largest sequence out of all the sequences that satisfy the given condition.
