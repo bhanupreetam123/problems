@@ -1,0 +1,12 @@
+In a class of n students, each student has marks in 6 subjects. The marks of each student are provided as space-separated values, where the 
+i-th line represents the marks of the i-th student (with roll number i). Write a program to output the top 3 students who scored the highest, along with their total marks. 
+If there are multiple students with the same total marks among the top 3, print them in ascending order of their roll numbers.
+
+Input :
+The first line contains an integer n (1 ≤ n ≤ 100), the number of students.
+The next n lines contain 6 space-separated integers, where each integer represents the marks of a student in each of the 6 subjects.
+
+Output:
+Output the roll numbers of the top 3 students with the highest total marks.
+For each of the top 3 students, output their roll number and their total marks.
+If there are multiple students with the same total marks, output them in ascending order of their roll numbers.
