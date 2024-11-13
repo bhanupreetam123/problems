@@ -1,5 +1,5 @@
 The principal of VIIT have just become aware that there is an active distribution of drugs in VIIT Hostel. The hostel building consists a total of 11 floors with ground floor
-numnered 0 and the first floor numbered 1 and so on.. the top floor numbered 10. Initially , a single student has these drugs who is in the 0th floor (ground floor).
+numbered 0 and the first floor numbered 1 and so on.. the top floor numbered 10. Initially , a single student has these drugs who is in the 0th floor (ground floor).
 Now this student will distribute to two students who are in the next immediate top floor(1st floor) and this distribution continues so on until 
 it reaches the top floor. More generally, if n students has these drugs in the 'i'th floor,then they distribute these drugs to 2n students who 
 are in the (i+1)th floor. Now, you will be given K queries. In each query : you will be given a integer x that represents floor number,
