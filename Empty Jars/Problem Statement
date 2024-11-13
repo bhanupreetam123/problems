@@ -1,3 +1,12 @@
 Hemanth has N jars filled with various number of candies in each jar. Initially he has to select a value x (x is a positive integer).
-In one operation , hemanth can select any jar and distribute exactly x number of candies to his friends from that jar. Hemanth has a very
-kind heart and he wants to all the candies 
+In one operation , hemanth can select any jar and distribute EXACTLY x number of candies to his friends from that jar.
+(Note that once the 'x' value is selected ,it cannot be changed for another opreation. It is constant for all operations)
+Hemanth has a very kind heart and he wants to give all the candies to his friends (emptying every jar). But hemanth is a lazy person, so
+he wants this job done in the minimum number of operations possible. Help hemanth to find the value of 'x' to achieve his goal.
+
+Input :
+The first line of input will be an integer N representing the number of jars hemanth has.
+The second line of input consists a list of size N where the i'th value represents the number of candies in the i'th jar.
+
+Output :
+Help Hemanth find the most optimal value of 'x' to achieve his goal.
