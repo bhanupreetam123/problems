@@ -13,11 +13,12 @@ int main() {
 	vector<pair<int,int> >v;
 	for(int i=1;i<=n;i++){
 	    vector<int> vec(6);
-	    for(int j=0;j<6;j++) cin>vec[j];
+	    for(int j=0;j<6;j++) cin>>vec[j];
 	    int sum=0;
-	    sum = accumulate(vec.begin(),vec.end(),myComp);
+	    sum = accumulate(vec.begin(),vec.end(),0);
 	    v.push_back(make_pair(i,sum));
 	}
+	sort(v.begin(),v.end(),myComp);
 	
 	for(int i=0;i<3;i++) cout<<v[i].first<<' '<<v[i].second<<'\n';
 	return 0;
