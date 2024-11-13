@@ -10,6 +10,6 @@ int main() {
 	    int x;
 	    cin>>x;
 	    int diff = 11-x;
-	    cout<<(n-((1<<diff)-1))<<'\n';
+	    cout<<(total-((1<<diff)-1))<<'\n';
 	}
 }
